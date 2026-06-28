@@ -26,7 +26,6 @@
     <nav class="nav container">
       <a class="brand" href="#top">LP<span class="brand-dot">.</span></a>
       <div class="nav-links">
-        <a href="#about">About</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#education">Education</a>
@@ -57,39 +56,9 @@
       </ul>
     </section>
 
-    <!-- ABOUT -->
-    <section id="about" class="section container">
-      <h2 class="section-title"><span class="num">01</span> About</h2>
-      <p class="lead">
-        Electrical-technician background turned data &amp; software engineer. I&rsquo;ve gone from
-        programming 6-axis CNC machines and soldering power electronics to designing
-        containerized, production-style data pipelines. I like systems where the data is
-        <em>real</em> — coming off actual hardware — and I care about the unglamorous parts:
-        idempotent loads, decoupled ingestion, and one-command setups that just work.
-      </p>
-      <div class="skills">
-        <div class="skill-group">
-          <h3>Languages</h3>
-          <ul><li>Python</li><li>C / C++</li><li>SQL</li><li>Bash</li></ul>
-        </div>
-        <div class="skill-group">
-          <h3>Data &amp; Infra</h3>
-          <ul><li>Kafka</li><li>Airflow</li><li>PostgreSQL</li><li>Spark</li><li>Docker</li></ul>
-        </div>
-        <div class="skill-group">
-          <h3>Cloud &amp; Tools</h3>
-          <ul><li>AWS (EC2, RDS)</li><li>Grafana</li><li>Streamlit</li><li>Git</li></ul>
-        </div>
-        <div class="skill-group">
-          <h3>Hardware</h3>
-          <ul><li>ESP32 / ESPHome</li><li>PlatformIO</li><li>MQTT</li><li>Sensors</li></ul>
-        </div>
-      </div>
-    </section>
-
     <!-- EXPERIENCE -->
     <section id="experience" class="section container">
-      <h2 class="section-title"><span class="num">02</span> Experience</h2>
+      <h2 class="section-title"><span class="num">01</span> Experience</h2>
       <div class="timeline">
         <article class="job">
           <div class="job-head">
@@ -118,7 +87,7 @@
 
     <!-- PROJECTS -->
     <section id="projects" class="section container">
-      <h2 class="section-title"><span class="num">03</span> Projects</h2>
+      <h2 class="section-title"><span class="num">02</span> Projects</h2>
       <div class="projects">
         <article class="card">
           <div class="card-top">
@@ -126,6 +95,7 @@
             <a class="card-link" href="https://github.com/LukaPokrajac/iot-telemetry-pipeline" target="_blank" rel="noopener" aria-label="View IoT Telemetry Pipeline on GitHub">↗</a>
           </div>
           <p>Real-hardware telemetry for a mushroom fruiting chamber: an ESP32-C6 publishes 7 environmental sensors over MQTT into a decoupled, containerized stack.</p>
+          <p class="live-demo"><a href="https://grafana.lukapokrajac.com" target="_blank" rel="noopener"><span class="live-dot"></span>Live dashboard &rarr; grafana.lukapokrajac.com</a></p>
           <ul class="card-points">
             <li>Normalized heterogeneous sensor topics into one canonical event schema.</li>
             <li>Decoupled ingestion from storage with a Kafka stage so the producer never blocks on the DB.</li>
@@ -193,7 +163,7 @@
 
     <!-- EDUCATION -->
     <section id="education" class="section container">
-      <h2 class="section-title"><span class="num">04</span> Education</h2>
+      <h2 class="section-title"><span class="num">03</span> Education</h2>
       <div class="timeline">
         <article class="job">
           <div class="job-head">
@@ -212,7 +182,7 @@
 
     <!-- CONTACT -->
     <section id="contact" class="section container contact">
-      <h2 class="section-title"><span class="num">05</span> Get in touch</h2>
+      <h2 class="section-title"><span class="num">04</span> Get in touch</h2>
       <p class="lead">Open to data engineering and backend roles. The fastest way to reach me is email.</p>
       <a class="btn btn-primary" href="mailto:lukapokrajac04@gmail.com">lukapokrajac04@gmail.com</a>
     </section>
